@@ -26,8 +26,8 @@ const Header = ({ siteTitle }) => (
           </Nav>
         </div>
         <div className="col-4 social-media-wrapper">
-          <a href="#" className="smi linkedin">Linkedin</a>
-          <a href="#" className="smi twitter">Twitter</a>
+          <a href="#" className="smi linkedin" target="_blank" rel="noopener noreferrer">Linkedin</a>
+          <a href="#" className="smi twitter" target="_blank" rel="noopener noreferrer">Twitter</a>
         </div>
       </div>
     </div>
