@@ -9,10 +9,10 @@ const Header = ({ siteTitle }) => (
       <div className="row align-items-center">
         <div className="col-8">
           <Nav
-            activeKey="/home"
+            activeKey="/"
           >
             <Nav.Item>
-              <Link className="nav-link" to="/">Work</Link>
+              <Link className="nav-link active" to="/">Work</Link>
             </Nav.Item>
             <Nav.Item>
               <Link className="nav-link" to="/about/">About</Link>

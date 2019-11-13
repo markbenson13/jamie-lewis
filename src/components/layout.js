@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Footer from "./footer"
+import VideoItems from "./video-items";
 
 
 const Layout = ({ children }) => {
@@ -33,6 +34,7 @@ const Layout = ({ children }) => {
           {children}
         </div>
       </main>
+
 
       <Footer siteTitle={data.site.siteMetadata.title} />
     </>

@@ -1,11 +1,13 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import Image from "../components/image"
 import SEO from "../components/seo"
 import Video from "../components/video"
+import VideoItems from "../components/video-items";
+
 
 const IndexPage = ({
   data
@@ -18,27 +20,16 @@ const IndexPage = ({
             <h1 className="site-title">Jamie Lewis</h1>
             <hr />
             <h2>Music Composition & Sound Design</h2>
-            <h3 className="video-title"></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3 className="video-title">Extinction Episodes 2,3 & 4</h3>
             <a href="http://extinction.com/" target="_blank" rel="noopener noreferrer" title="external link">extinction.com/</a>
           </div>
           <div className="col-7">
+            <Video videoSrcURL="https://player.vimeo.com/video/266492994">
 
+            </Video>
           </div>
         </div>
-
-        <div className="row video-items">
-
-          {data.allMarkdownRemark.edges.map(post => (
-            <div className="col-4">
-              <a key={post.node.id} href={post.node.frontmatter.path}>
-                <img src={post.node.frontmatter.videoThumbnail} />
-                {post.node.frontmatter.videoTitle}
-              </a>
-            </div>
-          ))}
-
-        </div>
+        <VideoItems />
       </div>
     </Layout>
   )
@@ -51,10 +42,12 @@ export const pageQuery = graphql`
           id
           frontmatter {
             path
+            featuredTitle
             videoTitle
             videoThumbnail
             videoSourceUrl
           }
+          html
         }  
       }
     }

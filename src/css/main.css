@@ -38,6 +38,10 @@ h2 {
     padding: 3em 0;
 }
 
+p.large-text {
+    font-size: 20px;
+}
+
 .nav .nav-link.active {
     font-weight: 700;
 }
@@ -109,6 +113,36 @@ h2 {
 
 .social-media-wrapper a.twitter:after {
     background-image: url('../images/twitter.svg');
+}
+
+.profile-wrapper {
+    margin-top: 3rem;
+}
+
+.contact-info {
+    margin-top: 2rem;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info .icon {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contact-info .icon.email {
+    background-image: url('../images/email-icon.svg');
+}
+
+.contact-info .icon.phone {
+    background-image: url('../images/phone-icon.svg');
 }
 
 /* Footer */
