@@ -27,6 +27,15 @@ exports.createPages = ({ actions, graphql }) => {
                 }
             }
         }
+
+        allSoundcloudVideosJson {
+            edges {
+              node {
+                id
+                soundcloudURL
+              }
+            }
+          }
     }`)
         .then(res => {
             if (res.errors) {

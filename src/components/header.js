@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
             activeKey="/"
           >
             <Nav.Item>
-              <Link className="nav-link active" to="/">Work</Link>
+              <Link className="nav-link" to="/">Work</Link>
             </Nav.Item>
             <Nav.Item>
               <Link className="nav-link" to="/about/">About</Link>

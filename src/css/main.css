@@ -115,7 +115,7 @@ p.large-text {
     background-image: url('../images/twitter.svg');
 }
 
-.profile-wrapper {
+.profile-wrapper, .music-wrapper {
     margin-top: 3rem;
 }
 
@@ -143,6 +143,10 @@ p.large-text {
 
 .contact-info .icon.phone {
     background-image: url('../images/phone-icon.svg');
+}
+
+.soundcloud-item {
+    margin-bottom: 1rem;
 }
 
 /* Footer */
