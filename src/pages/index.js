@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Video from "../components/video"
 import VideoItems from "../components/video-items";
+import Contact from "../components/Contact";
 
 
 const IndexPage = ({
@@ -31,7 +32,9 @@ const IndexPage = ({
         </div>
         <VideoItems />
       </div>
+      <Contact />
     </Layout>
+
   )
 
 export const pageQuery = graphql`

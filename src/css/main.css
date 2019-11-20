@@ -34,6 +34,10 @@ h2 {
     font-size: 26px;
 }
 
+h3 {
+    font-size: 20px;
+}
+
 .header-wrapper {
     padding: 3em 0;
 }
@@ -46,7 +50,9 @@ p.large-text {
     font-weight: 700;
 }
 
-.nav .nav-link:hover {
+.nav .nav-link:hover,
+.nav .nav-link:active,
+.nav .nav-link:focus {
     color: #000;
     font-weight: 700;
 }
@@ -61,7 +67,7 @@ p.large-text {
 }
 
 .main-wrapper {
-    padding: 3em 0;
+    padding: 3em 0 0;
 }
 
 .featured-video {
@@ -145,8 +151,40 @@ p.large-text {
     background-image: url('../images/phone-icon.svg');
 }
 
+.contact-info .icon.location {
+    background-image: url('../images/location-pin-icon.svg');
+}
+
 .soundcloud-item {
     margin-bottom: 1rem;
+}
+
+/* Contact form */
+.contact-wrapper {
+    background: url('../images/contact-bg.jpg') left center/50% no-repeat;
+    background-size: center;
+    height: 100%;
+    margin-top: 5rem;
+    padding: 3em 0;
+}
+
+.contact-form {
+    padding-left: 2em;
+}
+
+.contact-form h2 {
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+
+.contact-form .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.contact-form .contact-info p {
+    flex: 1 0 50%;
 }
 
 /* Footer */

@@ -12,16 +12,16 @@ const Header = ({ siteTitle }) => (
             activeKey="/"
           >
             <Nav.Item>
-              <Link className="nav-link" to="/">Work</Link>
+              <Link className="nav-link" activeClassName="active" to="/">Work</Link>
             </Nav.Item>
             <Nav.Item>
-              <Link className="nav-link" to="/about/">About</Link>
+              <Link className="nav-link" activeClassName="active" to="/about/">About</Link>
             </Nav.Item>
             <Nav.Item>
-              <Link className="nav-link" to="/music/">Music</Link>
+              <Link className="nav-link" activeClassName="active" to="/music/">Music</Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="#contact">Contact</Nav.Link>
+              <Link className="nav-link" activeClassName="active" to="#contact-wrapper">Contact</Link>
             </Nav.Item>
           </Nav>
         </div>
