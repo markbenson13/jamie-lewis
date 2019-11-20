@@ -8,12 +8,18 @@ import SoundCloudVideo from "../components/soundcloud-items"
 const Music = () => (
     <Layout>
         <SEO title="Music" />
-        <h1>Music</h1>
-        <div className="row music-wrapper">
-            <div className="col-12">
-                <SoundCloudVideo />
+        <div className="container">
+            <div className="row">
+                <div className="col">
+                    <h1>Music</h1>
+                </div>
             </div>
+            <div className="row music-wrapper">
+                <div className="col-12">
+                    <SoundCloudVideo />
+                </div>
 
+            </div>
         </div>
     </Layout>
 )
