@@ -18,11 +18,11 @@ const VideoItems = () => (
         <div className="row video-items">
             {
                 data.allMarkdownRemark.edges.map(({ node }) => (
-                    <div className="col-4">
-                        <a key={node.id} href={node.frontmatter.path}>
+                    <div className="col-3">
+                        <a className=" video-item" key={node.id} href={node.frontmatter.path}>
                             <img src={node.frontmatter.videoThumbnail} alt={node.frontmatter.videoTitle} />
-                            {node.frontmatter.videoTitle}
-                            {node.frontmatter.featuredTitle}
+                            <span>{node.frontmatter.videoTitle}</span>
+                            <span>{node.frontmatter.featuredTitle}</span>
                         </a>
                     </div>
                 ))
