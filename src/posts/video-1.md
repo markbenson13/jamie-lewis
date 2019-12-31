@@ -1,11 +1,12 @@
 ---
-path: "/the-guardians"
-videoTitle: "The Guardians - Elite Dangerous: Horizons Trailer"
-videoSourceUrl: "https://player.vimeo.com/video/188828855"
-videoThumbnail: "https://i.vimeocdn.com/video/598956940.webp?mw=960&mh=540"
+path: "/extinction-episodes-2-3-4"
+featuredTitle: "Extinction Episodes 2,3 & 4"
+videoSourceUrl: "https://player.vimeo.com/video/266492994"
+videoThumbnail: "https://i.vimeocdn.com/video/696817885.webp?mw=900&mh=517"
 ---
 
-Elite Dangerous: Horizons gets its biggest expansion yet with The Guardians 2.2 Update. Recruit NPC crew, launch fighters from your ships, pilot new ships, undertake new passenger missions, and much more!
+In-Game animations by Secret Sauce Studios
 
+[extinction.com/](http://extinction.com/)
 
 

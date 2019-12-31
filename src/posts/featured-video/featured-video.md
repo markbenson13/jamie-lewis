@@ -1,12 +1,6 @@
 ---
-path: "/extinction-episodes-2-3-4"
-featuredTitle: "Extinction Episodes 2,3 & 4"
-videoSourceUrl: "https://player.vimeo.com/video/266492994"
-videoThumbnail: "https://i.vimeocdn.com/video/696817885.webp?mw=900&mh=517"
+path: "/1737-pc-blooper-reel-youtube-4k"
+videoTitle: "1737 PC BLOOPER REEL YOUTUBE 4K"
+videoSourceUrl: "https://player.vimeo.com/video/378850123"
+videoThumbnail: "https://i.vimeocdn.com/video/838729272.webp?mw=700&mh=393"
 ---
-
-In-Game animations by Secret Sauce Studios
-
-[extinction.com/](http://extinction.com/)
-
-
