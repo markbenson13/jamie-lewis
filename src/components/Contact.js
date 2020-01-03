@@ -18,7 +18,14 @@ const Contact = () => (
                             <p><span className="icon phone"></span><a href="">+12 678 5435</a></p>
                             <p><span className="icon location"></span>46 Kingsway Stroke on Trent <br /> STB2 31X </p>
                         </div>
-                        <form method="POST" name="contact" data-netlify="true">
+                        <form 
+                            method="POST" 
+                            name="contact"
+                            data-netlify="true"
+                            data-netlify-honeypot="bot-field"
+                        >
+                            <input type="hidden" name="bot-field" />
+                            <input type="hidden" name="form-name" value="contact" />
                             <div className="form-group">
                                 <label for="fullname">Name</label>
                                 <input type="text" className="form-control" id="fullname" aria-describedby="fullName" placeholder="Enter full name" />

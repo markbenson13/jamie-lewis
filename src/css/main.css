@@ -171,6 +171,10 @@ p.large-text {
     margin-top: 3rem;
 }
 
+.profile-wrapper {
+    margin-bottom: 2rem;
+}
+
 .contact-info {
     margin-top: 2rem;
 }
@@ -231,6 +235,11 @@ p.large-text {
 
 .contact-form .contact-info p {
     flex: 1 0 50%;
+}
+
+.contact-form .btn-primary {
+    background-color: #000;
+    border-color: #000;
 }
 
 /* Footer */
