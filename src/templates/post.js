@@ -16,14 +16,14 @@ export default function Template({ data }) {
             <SEO title={post.frontmatter.videoTitle} />
             <div className="container">
                 <div className="row">
-                    <div className="col-5 featured-video">
-                        <h1 className="site-title">Jamie Lewis</h1>
+                    <div className="col-sm-12 col-md-5 featured-video">
+                        <h1 className="site-title">{post.frontmatter.videoTitle}</h1>
                         <hr />
-                        <h2>Music Composition & Sound Design</h2>
-                        <h3 className="video-title">{post.frontmatter.videoTitle}</h3>
+                        {/* <h2>Music Composition & Sound Design</h2> */}
+                        {/* <h3 className="video-title">{post.frontmatter.videoTitle}</h3> */}
                         <p dangerouslySetInnerHTML={{ __html: post.html }} />
                     </div>
-                    <div className="col-7">
+                    <div className="col-sm-12 col-md-7 video-frame">
                         <Video videoSrcURL={post.frontmatter.videoSourceUrl}>
 
                         </Video>
@@ -45,15 +45,14 @@ export default function Template({ data }) {
 
 export const postQuery = graphql`
     query BlogPostByPath($path: String!) {
-                markdownRemark(frontmatter: {path: {eq: $path} }) {
-                html
+        markdownRemark(frontmatter: {path: {eq: $path} }) {
+            html
             id
             frontmatter {
                 path
-                featuredTitle
-            videoTitle
-            videoThumbnail
-            videoSourceUrl
+                videoTitle
+                videoThumbnail
+                videoSourceUrl
         }
     }
 }

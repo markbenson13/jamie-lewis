@@ -16,7 +16,7 @@ const IndexPage = ({
     <Layout>
       <SEO title="Home" />
       <div className="container">
-        <div className="row">
+        {/* <div className="row">
           <div className="col-5 featured-video">
             <h1 className="site-title">Jamie Lewis</h1>
             <hr />
@@ -29,7 +29,7 @@ const IndexPage = ({
 
             </Video>
           </div>
-        </div>
+        </div> */}
         <VideoItems />
       </div>
       <Contact />
@@ -45,7 +45,6 @@ export const pageQuery = graphql`
           id
           frontmatter {
             path
-            featuredTitle
             videoTitle
             videoThumbnail
             videoSourceUrl

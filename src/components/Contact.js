@@ -7,7 +7,7 @@ const Contact = () => (
     <div id="contact-wrapper" className="contact-wrapper">
         <div className="container">
             <div className="row">
-                <div className="offset-6 col-6">
+                <div className="offset-md-6 col-sm-12 col-md-6">
                     <div className="contact-form">
                         <h2>Get in touch</h2>
                         <h3>We'd love to hear from you!</h3>
@@ -21,6 +21,7 @@ const Contact = () => (
                         <form 
                             method="POST" 
                             name="contact"
+                            action=""
                             data-netlify="true"
                             data-netlify-honeypot="bot-field"
                         >

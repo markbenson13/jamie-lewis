@@ -14,10 +14,10 @@ const About = () => (
                 </div>
             </div>
             <div className="row profile-wrapper">
-                <div className="col-5">
+                <div className="col-sm-12 col-md-5">
                     <img src="https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="Profile picture" />
                 </div>
-                <div className="col-7">
+                <div className="col-sm-12 col-md-7">
                     <div className="profile-info">
                         <p className="large-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut nibh aliquet, accumsan lectus vitae, hendrerit augue. Duis ut magna ut leo tempor ultricies.

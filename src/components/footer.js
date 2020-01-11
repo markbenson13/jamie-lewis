@@ -7,7 +7,7 @@ const Footer = ({ siteTitle }) => (
     <footer className="footer-wrapper">
         <div className="container">
             <div className="row align-items-center">
-                <div className="col-6">
+                <div className="col-sm-12 col-md-6">
                     <Nav>
                         <Nav.Item>
                             <Nav.Link href="/home">Work</Nav.Link>
@@ -23,7 +23,7 @@ const Footer = ({ siteTitle }) => (
                         </Nav.Item>
                     </Nav>
                 </div>
-                <div className="col-6">
+                <div className="col-sm-12 col-md-6">
                     <p className="copyright">© {new Date().getFullYear()} Copyright. All rights reserved. Designed by Mark Benson Opena.</p>
                 </div>
             </div>
