@@ -39,7 +39,7 @@ h3 {
 }
 
 .header-wrapper {
-    padding: 3em 0;
+    padding: 2em 0;
 }
 
 p.large-text {
@@ -76,8 +76,12 @@ p.large-text {
     font-weight: 700;
 }
 
+.logo-wrapper p {
+    margin-bottom: 0;
+}
+
 .main-wrapper {
-    padding: 3em 0 0;
+    /* padding: 3em 0 0; */
 }
 
 .featured-video {
@@ -114,6 +118,11 @@ p.large-text {
 
 .video-items .video-item {
     height: 145px;
+}
+
+.video-items .video-item img {
+    height: 100%;
+    object-fit: cover;
 }
 
 .video-items .video-item:hover:after,

@@ -29,15 +29,15 @@ const Contact = () => (
                             <input type="hidden" name="form-name" value="contact" />
                             <div className="form-group">
                                 <label for="fullname">Name</label>
-                                <input type="text" className="form-control" id="fullname" aria-describedby="fullName" placeholder="Enter full name" />
+                                <input type="text" className="form-control" id="fullname" name="fullname" aria-describedby="fullName" placeholder="Enter full name" />
                             </div>
                             <div className="form-group">
                                 <label for="emailaddress">Email address</label>
-                                <input type="email" className="form-control" id="emailaddress" aria-describedby="emailHelp" placeholder="Enter email address" />
+                                <input type="email" className="form-control" id="emailaddress" name="emailaddress" aria-describedby="emailHelp" placeholder="Enter email address" />
                             </div>
                             <div className="form-group">
-                                <label for="exampleInputPassword1">Message</label>
-                                <textarea className="form-control" rows="5" />
+                                <label for="message">Message</label>
+                                <textarea className="form-control" name="message" rows="5" />
                             </div>
                             <button type="submit" class="btn btn-primary">Send message</button>
                         </form>

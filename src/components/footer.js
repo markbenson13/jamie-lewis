@@ -19,7 +19,7 @@ const Footer = ({ siteTitle }) => (
                             <Nav.Link href="/music">Music</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="/contact" eventKey="#contact">Contact</Nav.Link>
+                            <Link className="nav-link" activeClassName="active" to="#contact-wrapper">Contact</Link>
                         </Nav.Item>
                     </Nav>
                 </div>
