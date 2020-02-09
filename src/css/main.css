@@ -150,6 +150,7 @@ p.large-text {
     right: 0;
     margin: auto;
     padding: 1rem;
+    color: #000000;
     text-align: center;
     z-index: 1;
     opacity: 0;
@@ -291,6 +292,12 @@ p.large-text {
 .copyright {
     font-size: 12px;
     margin-bottom: 0;
+    text-align: right;
+}
+
+/* 404 page */
+.notfound-wrapper {
+    min-height: 100vh;
 }
 
 

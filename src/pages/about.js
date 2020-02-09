@@ -27,7 +27,7 @@ const About = () => (
                     </p>
                     </div>
                     <div className="contact-info">
-                        <p className="email"><span className="icon email"></span><a href="#">jamielewis@gmail.com</a></p>
+                        <p className="email"><span className="icon email"></span><a href="mailto:jamieiainlewis@gmail.com">jamieiainlewis@gmail.com</a></p>
                         <p className="phone-no"><span className="icon phone"></span> + 12 799 3456</p>
                     </div>
                 </div>

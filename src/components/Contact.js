@@ -14,7 +14,7 @@ const Contact = () => (
                         <p>Fill out the form below and we'll contact you later.</p>
 
                         <div className="contact-info">
-                            <p><span className="icon email"></span><a href="">jamielewis@gmail.com</a></p>
+                            <p><span className="icon email"></span><a href="mailto:jamieiainlewis@gmail.com">jamieiainlewis@gmail.com</a></p>
                             <p><span className="icon phone"></span><a href="">+12 678 5435</a></p>
                             <p><span className="icon location"></span>46 Kingsway Stroke on Trent <br /> STB2 31X </p>
                         </div>
